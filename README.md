@@ -5,3 +5,6 @@
 + step 4: modfied CMakeLists.txt and build.gradle in jsc as you need
 
 You can get more from jsc lib .
+
+## FOO:
+![](https://github.com/sanyinchen/android-jsc/blob/master/source/screen.gif)
