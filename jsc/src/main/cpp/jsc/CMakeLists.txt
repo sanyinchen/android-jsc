@@ -1,0 +1,8 @@
+
+
+
+add_library(jscwrap SHARED IMPORTED GLOBAL)
+#message("CMAKE_BUILD_WITH_INSTALL_RPATH=>${CMAKE_BUILD_WITH_INSTALL_RPATH}")
+message("CMAKE_BUILD_WITH_INSTALL_RPATH=>${CMAKE_SOURCE_DIR}")
+set_target_properties(jscwrap PROPERTIES IMPORTED_LOCATION
+        "${CMAKE_SOURCE_DIR}/src/main/jniLibs/${ANDROID_ABI}/libjsc.so")
